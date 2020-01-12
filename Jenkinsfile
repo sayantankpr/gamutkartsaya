@@ -2,11 +2,11 @@ pipeline {
     agent any
 
 	tools {
-		maven 'maven8.5.47'
+		maven 'maven3.6.2'
 	}
 //
 //	environment {
-//		M2_INSTALL = "/home/gamut/distros/apache-maven-8.5.47/bin/mvn"
+//		M2_INSTALL = "/home/gamut/distros/apache-maven-3.6.2/bin/mvn"
 //	}
 
     stages {

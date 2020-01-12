@@ -35,7 +35,7 @@ pipeline {
 //sh 'sudo scp -o StrictHostKeyChecking=no target/gamutkart.war tomcat@172.17.04:/home/tomcat/distros/apache-tomcat-8.5.47/webapps'
 //}
 
-sh 'sshpass -p tomcat scp target/gamutkart.war tomcat@172.17.0.4:/home/tomcat/distros/apache-tomcat-8.5.47/webapp'
+sh 'sshpass -p tomcat scp target/gamutkart.war tomcat@172.17.0.4:/home/tomcat/distros/apache-tomcat-8.5.47/webapps'
 print "Deployment is done!"
 	    	}
 		}
